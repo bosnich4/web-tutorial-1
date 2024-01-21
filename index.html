@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.io">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/icons/partner.png" alt="" class="logo-img">
+            <h1 class="logo-title">TONCES</h1>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="#jasa">JASA</a></li>
+                <li> <a href="mailto:bosnichtimothy4@gmail.com">CONTACT</a></li>
+            </ul>
+        </nav>
+        <button class="btn-follow" onclick="redirInstagram()"> FOLLOW</button>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <p class="title"> Hallow dek, Bosnich Tonces !</p>
+            <p class="description"> Programmer</p>
+            <img src="assets/images/bosnich.jpg" alt="Foto Bosnich" class="img-foto">
+        </div>
+
+        <div class="parallax">
+            <div class="tentang">
+                <p class="title"> Abang programmer dek</p>
+                <p class="description"> udah hapal kali kode-kode adek</p>
+                <div class="mt-10">
+                    <button class="btn-follow" onclick="redirWhatsApp()">Mau kenalan
+                        dek?</button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <div class="card-item" id="jasa">
+                        <img src="assets/icons/24-hours.png" alt="" class="icon">
+                        <p class="card-title">Pelayanan 24 jam</p>
+                        <p class="card-description">nonstop</p>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/icons/hot-deal.png" alt="" class="icon">
+                        <p class="card-title">Jasa paling murah</p>
+                        <p class="card-description">Biaya yang diberikan terpercaya</p>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/icons/rating.png" alt="" class="icon">
+                        <p class="card-title">684 Review</p>
+                        <p class="card-description">Client senang dalam bekerjasama</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p class="title">&copy; Bosnich Timothy BOnsaleng
+            </p>
+            <p class="description"> Abang programmer dek</p>
+
+        </footer>
+    </div>
+
+    <script>
+        function redirInstagram(){
+            window.location.href = "https://instagram.com/bosnichtimothy"
+        }
+
+        function redirWhatsApp(){
+            window.location.href = "https://wa.me/+6281290309776"
+        }
+
+    </script>
+</body>
+
+</html>
